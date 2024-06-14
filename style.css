@@ -79,12 +79,12 @@ body {
 }
 .home-right {
   margin-left: 40px;
-  animation: upDown 3s infinite;
+  animation: upDown1 3s infinite;
 }
 .home-right img {
   width: 220px;
 }
-@keyframes upDown {
+@keyframes upDown1 {
   0% {
     transform: translateY(0);
   }
@@ -109,9 +109,9 @@ body {
   justify-content: center;
 }
 .about-left img {
-  animation: upDown 3s infinite;
+  animation: upDown2 3s infinite;
 }
-@keyframes upDown {
+@keyframes upDown2 {
   0% {
     transform: translateY(0);
   }
@@ -268,15 +268,15 @@ body {
 .up a {
   font-size: 25px;
   color: white;
-  animation: upDown 3s infinite;
+  animation: upDown3 3s infinite;
 }
 
-@keyframes upDown {
+@keyframes upDown3 {
   0% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
   }
   100% {
     transform: translateY(0);
